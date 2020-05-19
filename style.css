@@ -45,10 +45,6 @@ hmtl {
   display: block;
 }
 
-.slide-menu ul li.currentSpy a {
-  color: #000;
-}
-
 .slide-menu ul li a,
 .slide-menu ul li a:link {
   width: 100%;
@@ -71,6 +67,10 @@ hmtl {
   -o-transition: color 0.25s ease-out;
   -ms-transition: color 0.25s ease-out;
   transition: color 0.25s ease-out;
+}
+
+.slide-menu ul li.currentSpy a {
+  color: #000;
 }
 
 .content-wrap {
