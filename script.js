@@ -102,14 +102,14 @@ jQuery(function ($) {
           $spy.scrollTo($el);
         }
       }, {
-        offset: 0 - ($scroll.height() / 2) }); // One half of the div height
+        offset: 0 - ($scroll.height() / 2) }); // half of the div height from bottom
       // Spy on the item when we enter the section scrolling Down
       $scroll.waypoint(function (direction) {
         if (direction === 'down') {
           $spy.scrollTo($el);
         }
       }, {
-        offset: 1 + ($scroll.height() / 2) }); // 1px from the top
+        offset: 1 + ($scroll.height() / 2) }); // half of the div height from top
 
       // Finally, return the li element
       return $el;
