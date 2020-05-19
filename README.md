@@ -16,4 +16,4 @@ JS:
 - <b>script.js</b> file used for jquery.
 
 Screenshot:
-- ![Screenshot](images/screenshot.png)
+- ![Screenshot](screenshot.png)
