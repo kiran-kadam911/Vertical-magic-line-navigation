@@ -17,4 +17,4 @@ JS:
 
 Screenshot:
 
-![Screenshot](screenshot.png)
+![Screenshot](screenshot.gif)
